@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4FFDDF292E1CC100A48AB6 /* NameTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FFDDE292E1CC100A48AB6 /* NameTaskView.swift */; };
+		FA4FFDE1292E1CC400A48AB6 /* FinishaddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FFDE0292E1CC400A48AB6 /* FinishaddView.swift */; };
+		FA4FFDE3292E1CC700A48AB6 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FFDE2292E1CC700A48AB6 /* PhotoView.swift */; };
+		FA4FFDE5292E1CCA00A48AB6 /* SummaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FFDE4292E1CCA00A48AB6 /* SummaView.swift */; };
+		FA4FFDE7292E1CFB00A48AB6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FFDE6292E1CFB00A48AB6 /* SettingsView.swift */; };
 		FAA5DEB2292E14CA0064F03A /* coinboxv2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEB1292E14CA0064F03A /* coinboxv2App.swift */; };
-		FAA5DEB4292E14CA0064F03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEB3292E14CA0064F03A /* ContentView.swift */; };
+		FAA5DEB4292E14CA0064F03A /* mainscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEB3292E14CA0064F03A /* mainscreen.swift */; };
 		FAA5DEB6292E14CC0064F03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5DEB5292E14CC0064F03A /* Assets.xcassets */; };
 		FAA5DEB9292E14CC0064F03A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5DEB8292E14CC0064F03A /* Preview Assets.xcassets */; };
 		FAA5DEBB292E14CC0064F03A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEBA292E14CC0064F03A /* Persistence.swift */; };
 		FAA5DEBE292E14CC0064F03A /* coinboxv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEBC292E14CC0064F03A /* coinboxv2.xcdatamodeld */; };
+		FAA5DEC9292E1C210064F03A /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5DEC8292E1C210064F03A /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4FFDDE292E1CC100A48AB6 /* NameTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTaskView.swift; sourceTree = "<group>"; };
+		FA4FFDE0292E1CC400A48AB6 /* FinishaddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishaddView.swift; sourceTree = "<group>"; };
+		FA4FFDE2292E1CC700A48AB6 /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		FA4FFDE4292E1CCA00A48AB6 /* SummaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaView.swift; sourceTree = "<group>"; };
+		FA4FFDE6292E1CFB00A48AB6 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = coinboxv2/SettingsView.swift; sourceTree = SOURCE_ROOT; };
 		FAA5DEAE292E14CA0064F03A /* coinboxv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coinboxv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5DEB1292E14CA0064F03A /* coinboxv2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinboxv2App.swift; sourceTree = "<group>"; };
-		FAA5DEB3292E14CA0064F03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA5DEB3292E14CA0064F03A /* mainscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainscreen.swift; sourceTree = "<group>"; };
 		FAA5DEB5292E14CC0064F03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA5DEB8292E14CC0064F03A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA5DEBA292E14CC0064F03A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FAA5DEBD292E14CC0064F03A /* coinboxv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coinboxv2.xcdatamodel; sourceTree = "<group>"; };
+		FAA5DEC8292E1C210064F03A /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				FAA5DEB1292E14CA0064F03A /* coinboxv2App.swift */,
-				FAA5DEB3292E14CA0064F03A /* ContentView.swift */,
+				FAA5DEB3292E14CA0064F03A /* mainscreen.swift */,
+				FAA5DEC8292E1C210064F03A /* LaunchScreen.swift */,
+				FA4FFDE6292E1CFB00A48AB6 /* SettingsView.swift */,
+				FAA5DECA292E1C730064F03A /* NewTask */,
 				FAA5DEB5292E14CC0064F03A /* Assets.xcassets */,
 				FAA5DEBA292E14CC0064F03A /* Persistence.swift */,
 				FAA5DEBC292E14CC0064F03A /* coinboxv2.xcdatamodeld */,
@@ -71,6 +86,17 @@
 				FAA5DEB8292E14CC0064F03A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA5DECA292E1C730064F03A /* NewTask */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FFDDE292E1CC100A48AB6 /* NameTaskView.swift */,
+				FA4FFDE0292E1CC400A48AB6 /* FinishaddView.swift */,
+				FA4FFDE2292E1CC700A48AB6 /* PhotoView.swift */,
+				FA4FFDE4292E1CCA00A48AB6 /* SummaView.swift */,
+			);
+			path = NewTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4FFDE1292E1CC400A48AB6 /* FinishaddView.swift in Sources */,
 				FAA5DEBE292E14CC0064F03A /* coinboxv2.xcdatamodeld in Sources */,
 				FAA5DEBB292E14CC0064F03A /* Persistence.swift in Sources */,
-				FAA5DEB4292E14CA0064F03A /* ContentView.swift in Sources */,
+				FA4FFDDF292E1CC100A48AB6 /* NameTaskView.swift in Sources */,
+				FAA5DEC9292E1C210064F03A /* LaunchScreen.swift in Sources */,
+				FA4FFDE7292E1CFB00A48AB6 /* SettingsView.swift in Sources */,
+				FAA5DEB4292E14CA0064F03A /* mainscreen.swift in Sources */,
+				FA4FFDE5292E1CCA00A48AB6 /* SummaView.swift in Sources */,
 				FAA5DEB2292E14CA0064F03A /* coinboxv2App.swift in Sources */,
+				FA4FFDE3292E1CC700A48AB6 /* PhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
