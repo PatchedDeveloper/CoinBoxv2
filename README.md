@@ -1,4 +1,4 @@
-###*COINBOX*
+*COINBOX*
 ___
 Hello everyone!
 I recently created a prototype for my CoinBox project for employers so they could see my coding skills.
